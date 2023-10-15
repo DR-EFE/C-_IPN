@@ -10,6 +10,7 @@ int main()
 {
     // Declaración de variables
     string nombre;
+    
     int edad;
     char sexo;
     float peso, estatura, imc;
@@ -23,8 +24,8 @@ int main()
     cin >> sexo;
     cout << "Ingrese el peso del paciente en kg: ";
     cin >> peso;
-    cout << "Ingrese la estatura del paciente en metros: ";
-    cin >> estatura;
+    cout << "Ingrese la estatura del paciente en metros: "; 
+cin >> estatura;
 
     // Cálculo del IMC
     imc = peso / (estatura * estatura);
